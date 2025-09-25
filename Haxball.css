@@ -1,0 +1,11 @@
+  :root{--bg:#0b1220;--field:#1b8a3b;--line:#ffffff55;--panel:#0f1720}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+    body{display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#061023,#0b1220);}
+    .wrap{width:960px;max-width:98vw;background:var(--panel);padding:12px;border-radius:12px;box-shadow:0 12px 30px rgba(2,6,23,.6)}
+    canvas{display:block;background:var(--field);border-radius:8px}
+    .hud{display:flex;justify-content:space-between;align-items:center;color:#fff;padding:8px 12px}
+    .scores{font-size:18px}
+    .controls{font-size:13px;color:#ddd}
+    .center{font-weight:700}
+    button{padding:6px 10px;border-radius:8px;border:0;background:#ff7b54;color:#111;cursor:pointer}
+    @media (max-width:640px){.wrap{padding:8px}}
